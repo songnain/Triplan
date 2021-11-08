@@ -9,9 +9,9 @@ public interface NoticeMapper {
 
     void noticeInsert(NoticeVO noticeVO);
 
-    NoticeVO noticeSelect(int noticeId);
+    NoticeVO noticeSelect(Integer noticeId);
 
     void noticeUpdate(NoticeVO noticeVO);
 
-    void noticeDelete(int noticeId);
+    void noticeDelete(Integer noticeId);
 }

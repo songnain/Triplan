@@ -2,12 +2,14 @@ package com.triplan.service;
 
 import com.triplan.domain.NoticeVO;
 
+import java.net.Inet4Address;
+
 public interface NoticeService {
     void noticeInsert(NoticeVO noticeVO);
 
-    NoticeVO noticeSelect(int noticeId);
+    NoticeVO noticeSelect(Integer noticeId);
 
     void noticeUpdate(NoticeVO noticeVO);
 
-    void noticeDelete(int noticeId);
+    void noticeDelete(Integer noticeId);
 }

@@ -17,7 +17,7 @@ public class NoticeServiceImpl implements NoticeService{
     }
 
     @Override
-    public NoticeVO noticeSelect(int noticeId) {
+    public NoticeVO noticeSelect(Integer noticeId) {
         return noticeMapper.noticeSelect(noticeId);
     }
 
@@ -28,7 +28,7 @@ public class NoticeServiceImpl implements NoticeService{
     }
 
     @Override
-    public void noticeDelete(int noticeId) {
+    public void noticeDelete(Integer noticeId) {
         noticeMapper.noticeDelete(noticeId);
     }
 
